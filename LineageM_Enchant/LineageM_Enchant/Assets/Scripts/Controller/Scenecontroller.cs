@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Scenecontroller : MonoBehaviour {
+public class SceneController : MonoBehaviour
+{
+    public MainController main;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 	}
 	

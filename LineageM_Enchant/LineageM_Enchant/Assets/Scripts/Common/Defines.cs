@@ -5,9 +5,10 @@ using UnityEngine;
 public enum SceneState
 {
     None = -1,
-    Title,
-    Lobby,
-    Battle,
+    Main,
+    ItemList,
+    ItemInchent,
+    ItemBuy,
 }
 
 public static class Version
